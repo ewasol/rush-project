@@ -6,14 +6,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  /* .caption-1 {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%
-  } */
 
+
+  
 .about {
   background-color: lightblue;
   height: 100vh
@@ -34,12 +29,48 @@ body {
 
 .profile {
   background-color: pink;
-  height: auto
+  height: 100vh
 }
 
+ul
+{
+    list-style-type: none;
+}
 
-/* .text-container {
-  padding: 20px;
-  background-color: beige;
-} */
-  
+.myNavbar  {
+  padding: 1rem 2rem;
+  /* background-color: #f0f0f0; */
+  position: sticky;
+  top: 0;
+  /* overflow: hidden; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: #f0f0f0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.dropdown-menu {
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 80px ! important;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  font-size: 10;
+  color: #333;
+}
