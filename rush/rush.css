@@ -1,0 +1,165 @@
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-71888.jpg?t=st=1725633845~exp=1725637445~hmac=5c58d33194674a192afc9e40258f1a36e64ecd5c778a564bb2671d4326da0658&w=1380");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* .caption-1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%
+  } */
+
+
+  .header {
+    height: 100vh
+  }
+
+
+
+  ul
+{
+    list-style-type: none;
+}
+
+.myNavbar  {
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  /* overflow: hidden; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.dropdown-menu {
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 80px ! important;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  font-size: 10;
+  color: #333;
+}
+
+
+
+
+.home {
+ 
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+
+@layer demo {
+  .highlighted-text-shadow {
+    text-shadow:
+      /* regular text-shadow */
+      0 .15ch 15px var(--shadow),
+      /* text-shadow highlight */
+      0 -2px 0 var(--highlight);
+  }
+}
+
+
+@layer demo.support {
+  :root {
+    --hue: 320; /* change me */
+    --bg: oklch(35% .3 var(--hue));
+    --text: oklch(85% .1 var(--hue));
+    --shadow: oklch(25% .2 var(--hue));
+    --highlight: oklch(98% .05 var(--hue));
+  }}
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  } 
+
+ 
+
+  
+  h1 {
+
+    min-block-size: 100% !important; 
+    font-family: system-ui, sans-serif;
+
+    /* display: grid; */
+    place-content: center;
+    gap: 15vh;
+   
+    font-size: 60px !important; 
+    letter-spacing: -.15ch;
+    line-height: .75;
+    padding-bottom: 5%;
+  }
+
+
+
+.about {
+  padding: 3%;
+  background-color: #c2e1ff;
+  height: 100vh !important;
+  width: 100%;
+  display: flex !important;
+  
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+  
+}
+
+.contact {
+  padding: 5%;
+  color: white;
+  background-color: #005b55;
+  height: 100vh
+}
+
+.header {
+  height: 100vh
+}
+
+.profile {
+  padding: 5%;
+  background-color: #ffe8ff;
+  height: auto
+}
+
+
+/* .text-container {
+  padding: 20px;
+  background-color: beige;
+} */
+  
